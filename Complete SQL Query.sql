@@ -63,7 +63,7 @@ From #2023combined_data
 Select *
 From combinedCTE
 where row_num >1
--- if you want to know the number of rows, type select* in the place of delete
+
 With combinedCTE As (
 Select*,
 ROW_NUMBER () Over(
